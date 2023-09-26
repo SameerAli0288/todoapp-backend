@@ -23,7 +23,7 @@ const deleteCompletedTodos = () => {
 
 const startCronJob = () => {
   // Define the cron schedule (e.g., daily at 2:00 AM)
-  const cronSchedule = "0 4 1 1 *";
+  const cronSchedule = "1 6 2 2";
 
   // Create a new cron job
   const job = new CronJob(cronSchedule, deleteCompletedTodos);
